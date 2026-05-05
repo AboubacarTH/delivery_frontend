@@ -24,7 +24,7 @@ function OrderProgress({ status }: { status: string }) {
           className="absolute left-0 top-4 h-0.5 bg-brand-400 transition-all duration-500"
           style={{ width: `${Math.min((currentStep / (ORDER_STEPS.length - 1)) * 100, 100)}%` }}
         />
-        {ORDER_STEPS.map((step, i) => {
+        {ORDER_STEPS.map((step) => {
           const stepIndex = STATUS_ORDER.indexOf(step.key)
           const isCompleted = currentStep >= stepIndex
           const isCurrent = STATUS_ORDER[currentStep] === step.key || 
