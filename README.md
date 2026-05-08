@@ -121,6 +121,7 @@ Pro	Commercial use + updates
 Enterprise	Full access + priority support
 
 📧 Contact: admin@a2-digit.com
+🌟 Demo: https://demo-delivery.a2-digit.com
 
 🛡 Security & Best Practices
 Secure token handling
